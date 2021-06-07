@@ -5,9 +5,10 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
+
 @CucumberOptions(
-        features = "src/test/resources/features",
-        glue = "RegisterSteps"
+        features = "src/test/resources/features/Registro.feature",
+        glue = "steps"
 )
     public class runner {
 

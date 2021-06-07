@@ -1,8 +1,6 @@
 package steps;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+import io.cucumber.java.en.*;
 import pages.RegisterPage;
 
 public class RegisterSteps {
@@ -17,6 +15,7 @@ public class RegisterSteps {
 
     @When("^Ingreso datos del Usuario obligatorios email y password$")
     public void ingresoDatosDelUsuarioObligatoriosEmailYPassword() {
+
     }
 
 

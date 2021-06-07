@@ -6,7 +6,7 @@ public class LoginPage extends BasePage{
         super(driver);
     }
 
-    public void navigateToRegister(){
+    public void navigateToLogin(){
         navigateTo("http://localhost:4000/login");
     }
 }

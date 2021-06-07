@@ -9,4 +9,5 @@ public class RegisterPage extends BasePage{
     public void navigateToRegister(){
         navigateTo("http://localhost:4000/register");
     }
+
 }
